@@ -1,0 +1,20 @@
+CHEST ESP - Mod Fabric 1.21.4 (client)
+
+Touche G : ouvre le menu (re-appuie sur G ou Echap pour fermer).
+Dans le menu tu actives/desactives :
+ - Chest ESP   (Orange = coffre, Rouge = piege, Violet = ender chest, Marron = tonneau)
+ - Anchor ESP  (Cyan = respawn anchor)
+ - Lignes (tracers)
+ - Anchor AutoFarm : va vers l'ancre la plus proche (48 blocs max) en suivant un chemin
+   (A* : contourne les obstacles, saute 1 bloc, evite eau/lave/feu), la mine, puis ramasse
+   l'item. Il faut une pioche diamant/netherite dans la hotbar.
+ - Mode humain : rotations fluides, delais de reaction, visee a un point variable,
+   petites pauses aleatoires. Desactive = rotations instantanees.
+
+POUR OBTENIR LE .JAR SANS RIEN INSTALLER :
+1. Crée un compte sur github.com (gratuit) puis un nouveau dépôt.
+2. Clique "uploading an existing file" et glisse TOUT le contenu de ce dossier
+   (y compris le dossier .github).
+3. Va dans l'onglet "Actions" -> attends la coche verte (2-3 min).
+4. Clique sur le dernier build -> en bas "ChestESP-jar" -> télécharge.
+5. Dézippe, mets le .jar dans .minecraft/mods avec Fabric Loader + Fabric API 1.21.4.
